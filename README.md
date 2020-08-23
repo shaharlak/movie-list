@@ -10,12 +10,12 @@ The application is running on Python 3.8.5 using the Django 3.1 framework.
 The external lib requests 2.24 is also required.
 
 ## Running the app
-First, the installation ob the above libraries is required. 
-Then, you can active the endpoint by accessing the movie_list document and run the command:
+First, the installation of the above libraries is required. 
+Then, you can active the endpoint by accessing the movie_list directory and run:
 
 ```python manage.py runserver```
 
-Then, by going with your browser to localhost:8000/movies/, you should see the required list.
+Then, addressing your browser to localhost:8000/movies/, you should see the required list.
 
 ## Tests
 Among others, the following tests were performed:
@@ -26,7 +26,7 @@ Among others, the following tests were performed:
 
 ## Future tests
 - Accessing the page with different timezones
-- Get contradicting information from Herokuapp's server 
+- Get contradicted information from Herokuapp's server 
 - Scalability test
 
 ## Final notes
